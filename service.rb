@@ -1,5 +1,5 @@
 class Service
-  attr_accessor :config, :logger, :client
+  attr_reader :config, :logger, :client
 
   def initialize(config, logger, client = nil)
     @config = config
